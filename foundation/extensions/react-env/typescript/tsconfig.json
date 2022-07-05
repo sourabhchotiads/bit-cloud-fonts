@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "noEmit": true
+  },
+  "include": ["**/*", "**/*.woff", "**/*.woff2"]
+}

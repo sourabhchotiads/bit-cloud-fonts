@@ -9,87 +9,15 @@
  */
 
 {
-    "ui-bundles/grypp-forms": {
+    "extensions/react-env": {
         "scope": "",
         "version": "",
         "mainFile": "index.ts",
-        "rootDir": "foundation/ui-bundles/grypp-forms",
+        "rootDir": "foundation/extensions/react-env",
         "config": {
-            "teambit.react/react": {},
+            "teambit.envs/env": {},
             "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-bundles/helpers": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-bundles/helpers",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-elements/mui/inputs/checkbox-input": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/inputs/checkbox-input",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-elements/mui/inputs/grypp-input": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/inputs/grypp-input",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-elements/mui/inputs/radio-input": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/inputs/radio-input",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-elements/mui/inputs/select-box": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/inputs/select-box",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
-    "ui-elements/mui/inputs/standard-buttons": {
-        "scope": "",
-        "version": "",
-        "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/inputs/standard-buttons",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
+                "env": "teambit.envs/env"
             }
         }
     },
@@ -109,7 +37,13 @@
         "scope": "",
         "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "foundation/ui-elements/mui/theme/theme-provider"
+        "rootDir": "foundation/ui-elements/mui/theme/theme-provider",
+        "config": {
+            "dotsquares.foundation/extensions/react-env": {},
+            "teambit.envs/envs": {
+                "env": "dotsquares.foundation/extensions/react-env"
+            }
+        }
     },
     "$schema-version": "14.9.0"
 }
