@@ -1,0 +1,27 @@
+---
+description: 'Grypp ThemeProvider component for MUI Library themes'
+labels: ['grypp theme', 'MUI', 'custom']
+---
+import { createTheme } from "@mui/material";
+import Button from '@mui/material/Button';
+import { ThemeProvider } from './theme-provider';
+
+## Grypp with MUI Theme Provider
+
+This theme provider wraps MUI's `themeProvider` component, applying a default theme override.
+
+For details of how to override a MUI theme please see the [MUI theme configuration Docs](https://mui.com/customization/theming/).
+
+### Component usage
+```js
+<ThemeProvider theme={theme} />
+```
+
+### Grypp's Default Theme
+```js live
+    <ThemeProvider>
+        <Button variant="contained" color="accentOne">This is the default override Accent color</Button>
+    </ThemeProvider>
+```
+
+### Using props to customise the theme will NOT be allowed to ensure consistency
